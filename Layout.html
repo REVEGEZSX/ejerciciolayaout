@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #container
+        {
+            width: 70%;
+            margin:auto;
+        }
+        #LOGO
+        {
+            float: left;
+        }
+        h1
+        {
+            float: right;
+            border: red dashed 2px;
+            width: 5em;
+            background: lightskyblue;
+        }
+        header
+        {
+            overflow: hidden;
+            background: lightpink;
+            border: dashed green 2px;
+        }
+        nav
+        {
+            border: blue dashed 2px;
+            margin-top: 12.5em;
+            background: lightgreen;
+        }
+        ul
+        {
+            list-style: none;
+        }
+        li
+        {
+            display: inline-block; 
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        #primerli
+        {
+            padding-right: 0.5em;
+        }
+        form
+        {
+            float: left;
+        }
+        aside
+        {
+            float:right;
+            border: dashed 2px yellowgreen;
+        }
+        body
+        {
+            background: lightseagreen;
+        }
+        aside img
+        {
+            margin-left: 1.4em;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <picture id="LOGO">
+                <img src="Imagenes/Logo.png" height="200px" width="200px">
+            </picture>
+            <H1>American Heart Association logo</H1>
+            <nav> 
+                <ul>
+                    <li><a id="primerli" href="#">ENLACE 1</a></li>
+                    <li><a href="#">ENLACE 2</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="#">
+            <p>
+                <label for="nombre">NAME:</label>
+                <input type="text" name="nombre" id="nombre">
+            </p>
+            <p>
+                <label for="coreo">EMAIL:</label>
+                <input type="email" name="correo" id="correo">
+            </p>
+            <P><label for="">COMMENTS:</label></P>
+            <P>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </P>
+                <P><input type="submit" value="submit"></P> 
+            </form>
+        </main>
+
+    <aside>
+            <picture id="foto">
+                <img src="Imagenes/Client.jpg" width="200px" height="400px">
+            </picture>
+            <p>Description of Qualifications of client</p>
+    </aside>
+
+    </div>
+</body>
+</html>
